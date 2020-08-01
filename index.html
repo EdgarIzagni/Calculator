@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@700&display=swap" rel="stylesheet"> 
+  </head>
+  <body class="body">
+    <table class="calculator">
+      <tr class="calculator__display">
+        <td colspan="5"><span class="display__resultado"></span></td>
+      </tr>
+      <tr class="calculator__number">
+        <td><button class="number__button">7</button></td>
+        <td><button class="number__button">8</button></td>
+        <td><button class="number__button">9</button></td>
+        <td><button class="op__button" id="deleate">C</button></td>
+        <td><button class="op__button">+</button></td>
+      </tr>
+      <tr class="calculator__number">
+        <td><button class="number__button">4</button></td>
+        <td><button class="number__button">5</button></td>
+        <td><button class="number__button">6</button></td>
+        <td><button class="op__button">-</button></td>
+        <td><button class="op__button">*</button></td>
+      </tr>
+      <tr class="calculator__number">
+        <td><button class="number__button">3</button></td>
+        <td><button class="number__button">2</button></td>
+        <td><button class="number__button">1</button></td>
+        <td><button class="op__button">/</button></td>
+        <td><button class="op__button--special" id="result">=</button></td>
+      </tr>
+      <tr class="calculator__number">
+        <td><button class="op__button"></button></td>
+        <td><button class="number__button">0</button></td>
+        <td><button class="number__button">.</button></td>
+        <td colspan="2"></td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

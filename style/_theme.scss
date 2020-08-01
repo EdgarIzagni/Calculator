@@ -1,0 +1,28 @@
+$color-primary: #10100a;
+$color-secundary: #232322;
+$color-number: #ffffff;
+$color-op: #0000ff;
+
+.calculator {
+    background-color: $color-primary;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Manjari', sans-serif;
+}
+.number__button,
+.op__button{
+    background: none;
+    border: none;
+}
+
+.number__button {color: $color-number;}
+
+.op__button {color: $color-op;}
+
+.display__resultado {background-color: $color-number;}
+
+.number__button:hover,
+.op__button:hover {
+    cursor: pointer;
+    background-color: $color-secundary;
+}
